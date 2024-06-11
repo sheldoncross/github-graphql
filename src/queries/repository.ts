@@ -1,4 +1,4 @@
-import { gql } from "apollo-server-express";
+import { gql } from "@apollo/client";
 
 const REPOSITORY = gql`
   query Repository($owner: String!, $name: String!) {
